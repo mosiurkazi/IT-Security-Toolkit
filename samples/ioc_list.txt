@@ -1,0 +1,3 @@
+# Example IOC list (offline). Replace with your own.
+# Format: one hash per line (MD5/SHA1/SHA256 supported)
+d41d8cd98f00b204e9800998ecf8427e
