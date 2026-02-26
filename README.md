@@ -1,4 +1,4 @@
-# IT Security Triage Toolkit
+# IT Security Toolkit
 
 A **resume-ready** project you can run on Windows or Linux to demonstrate:
 - Help Desk troubleshooting workflow
@@ -72,9 +72,6 @@ Add screenshots to `docs/screenshots/`:
 - Created an offline **IOC checking utility** (hash comparison + indicator scanning) and documented a structured help desk incident triage runbook and ticket template.
 
 ---
-
-## Date
-Created: 2026-02-26
 
 ## Disclaimer
 Use this toolkit only on systems you own or have permission to assess.
