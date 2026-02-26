@@ -1,4 +1,4 @@
-# Help Desk + Cyber Security Project: IT Security Triage Toolkit (Python)
+# IT Security Triage Toolkit
 
 A **resume-ready** project you can run on Windows or Linux to demonstrate:
 - Help Desk troubleshooting workflow
@@ -6,7 +6,7 @@ A **resume-ready** project you can run on Windows or Linux to demonstrate:
 - Evidence collection & reporting
 - Basic IOC (Indicator of Compromise) checking (offline)
 
-✅ **What you can claim (truthfully) after running this in your lab:**  
+ **What you can claim (truthfully) after running this in your lab:**  
 - Built a Python-based triage tool that collects endpoint diagnostics (processes, network connections, DNS config, event snippets where available) and produces a timestamped report for escalation.  
 - Implemented offline IOC checks (file hashes & suspicious indicators) and documented a repeatable incident-response workflow suitable for IT Technician / Help Desk escalation.
 
