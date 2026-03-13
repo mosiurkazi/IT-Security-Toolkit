@@ -1,17 +1,11 @@
 # IT Security Toolkit
 
-A **resume-ready** project you can run on Windows or Linux to demonstrate:
+This project demonstrates:
 - Help Desk troubleshooting workflow
 - Security-minded incident triage
 - Evidence collection & reporting
 - Basic IOC (Indicator of Compromise) checking (offline)
-
- **What you can claim (truthfully) after running this in your lab:**  
-- Built a Python-based triage tool that collects endpoint diagnostics (processes, network connections, DNS config, event snippets where available) and produces a timestamped report for escalation.  
-- Implemented offline IOC checks (file hashes & suspicious indicators) and documented a repeatable incident-response workflow suitable for IT Technician / Help Desk escalation.
-
----
-
+  
 ## Contents
 - `triage_toolkit/triage.py` — Collects system + network diagnostics and writes a JSON + text report
 - `triage_toolkit/ioc_check.py` — Offline IOC checker (hash compare + simple regex indicators)
@@ -56,22 +50,6 @@ python3 triage_toolkit/ioc_check.py --ioc-file samples/ioc_list.txt --hash-file 
 - Security notes (common red flags checklist)
 
 > This is intentionally **safe** and does not exploit anything. It’s designed for help desk evidence collection and escalation.
-
----
-
-## Suggested screenshots for your GitHub README
-Add screenshots to `docs/screenshots/`:
-1. Running `triage.py` and generating reports
-2. Example report file opened (JSON or TXT)
-3. Running `ioc_check.py` with a test file hash
-
----
-
-## Resume bullets (copy/paste)
-- Built a cross-platform Python **IT security triage toolkit** to collect endpoint diagnostics (host, processes, network, DNS) and generate timestamped reports for escalation workflows.
-- Created an offline **IOC checking utility** (hash comparison + indicator scanning) and documented a structured help desk incident triage runbook and ticket template.
-
----
 
 ## Disclaimer
 Use this toolkit only on systems you own or have permission to assess.
